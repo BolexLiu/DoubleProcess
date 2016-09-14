@@ -26,6 +26,7 @@ public class LocalService extends Service {
         mBinder = new localBinder();
         if (mLocalServiceConnection == null) {
             mLocalServiceConnection = new localServiceConnection();
+
         }
         Log.e(TAG, TAG + "On Create");
     }
